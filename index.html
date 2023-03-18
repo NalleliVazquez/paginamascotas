@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Página web de Perritos</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body> <!--Esto es para el tamaño de los encabezados-->
+        <h1>Pagina de mascotas </h1>
+        <h2>Esta es una pagina de Perros</h2>
+        <h3>Hecha por: Nalleli Vazquez</h3>
+        
+        <!--Agregar imagen desde internet-->
+        <img src="https://images.hola.com/imagenes/mascotas/20221020219416/razas-perros-toy/1-154-385/razas-de-perro-toy-t.jpg">
+        <!--Agregar imagen desde la computadora-->
+        <img src="imagenes/CE.jpg">
+        <!--Listas Ordenas y desordenadas-->
+            <h3>Listas de Perritos</h3>
+            <p>3 Cosas que los perros <Strong>aman</Strong></p>
+
+            <!--Lista ordenada-->
+            <ol><!--Ordered list-->
+                <li>Dormir</li>
+                <li>Comer</li>
+                <li>Jugar</li>
+            </ol>
+            <!--Lista desordenada-->
+            <p>3 Cosas que los perros <Strong>odian</Strong></p>
+            <ul>
+                <li>Banar</li>
+                <li>El veterinario</li>
+                <li>Inyecciones</li>
+            </ul>
+           
+            <!--Crear enlaces externos-->
+                <p>Si quieres ver mas fotos de perritos <a href="https://mx.images.search.yahoo.com/search/images;_ylt=Awrhdu1XbBJkEqcRrdrD8Qt.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=imagenes+de+perritos&fr=mcafee" target="_blank">da click  aqui</a></p>
+
+                <!--Formularios con botones de radio-->
+                <form>
+                        <p> ¿Tu perrito es cachorro o adulto? </p>
+                        <!--Opciones de respuestas-->
+                        <label>
+                               <input id="cachorro" type="radio" value="cachorro" name="chachorro-adulto" checked> Cachorro
+                               <br>
+                               <input id="adulto" type="radio" value="adulto" name="chachorro-adulto"> Adulto
+                        </label>
+
+                        <!--Formulario con casillas de verificacion-->
+                        <p>¿Como es el caracter de tu perro?</p>
+                            <label>
+                                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked> Perezoso
+                                <br>
+                                <input id="energico" type="checkbox" value="energico" name="personalidad" > Energico
+                                <br>
+                                <input id="jugueton" type="checkbox" value="jugueton" name="personalidad" > Jugueton
+                            </label> 
+                    </form>
+                    <footer>
+                        <p><small>Esta página fue creada durante el bootcamp de Tecnolochicas PRO</small></p>
+                    </footer>
+
+    </body>
+    </html>
